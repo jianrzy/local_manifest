@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="rayrzy" revision="10" />
+        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="rayrzy" revision="10" />
+        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="rayrzy" revision="silont" />
+
+</manifest>
