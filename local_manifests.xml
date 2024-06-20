@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
+        <remote name="jianrzy" fetch="https://github.com/jianrzy" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/rosy" name="rosy" remote="rayrzy" revision="ten" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy-3.18" remote="rayrzy" revision="ten" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="rayrzy" revision="ten" />
+
+        <!-- LineageOS -->
+        <!-- CodeAurora additions -->
+        <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="jianrzy" revision="lineage-17.1" />
+
+</manifest>
