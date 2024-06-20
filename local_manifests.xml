@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
+        <remote name="los" fetch="https://github.com/LineageOS" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/samsung/gts210velte" name="android_device_samsung_gts210velte" remote="rayrzy" revision="pie" />
+        <project path="device/samsung/msm8976-common" name="android_device_samsung_msm8976-common" remote="rayrzy" revision="pie" />
+        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="rayrzy" revision="pie" />
+        <project path="kernel/samsung/msm8976" name="android_kernel_samsung_msm8976" remote="rayrzy" revision="pie" />
+
+        <!-- LineageOS additions -->
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="lineage-16.0" />
+        <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="los" revision="lineage-16.0" />
+
+</manifest>
