@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
+        <remote name="jianrzy" fetch="https://github.com/jianrzy" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="rayrzy" revision="ten" />
+        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="ten" />
+        <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="jianrzy" revision="c4.0.eol202405" />
+
+</manifest>
