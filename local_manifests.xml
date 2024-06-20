@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
+        <remote name="jianrzy" fetch="https://github.com/jianrzy" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rayrzy" revision="ten" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="rayrzy" revision="ten" />
+        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rayrzy" revision="ten" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="rayrzy" revision="ten" />
+        <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_vince" remote="rayrzy" revision="master" />
+
+        <!-- LineageOS -->
+        <!-- CodeAurora additions -->
+        <remove-project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" />
+        <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="jianrzy" revision="lineage-17.1" />
+
+</manifest>
