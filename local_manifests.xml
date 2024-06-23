@@ -7,7 +7,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="rayrzy" revision="ten" />
-        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="ten" />
+        <project path="vendor/xiaomi/" name="vendor_xiaomi_santoni" remote="rayrzy" revision="ten" />
         <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="jianrzy" revision="c4.0.eol202405" />
 
 </manifest>
