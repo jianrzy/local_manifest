@@ -10,4 +10,9 @@
         <project path="vendor/xiaomi/" name="vendor_xiaomi_santoni" remote="rayrzy" revision="ten" />
         <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="jianrzy" revision="c4.0.eol202405" />
 
+        <!-- LineageOS -->
+        <!-- CodeAurora additions -->
+        <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="jianrzy" revision="lineage-17.1" />
+
 </manifest>
