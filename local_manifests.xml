@@ -15,4 +15,7 @@
         <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="jianrzy" revision="lineage-17.1" />
 
+        <!-- keepQASSA -->
+        <remove-project path="packages/apps/Dirac" name="packages_apps_Dirac" />
+
 </manifest>
