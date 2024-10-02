@@ -4,6 +4,7 @@
         <!-- Remote -->
         <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
         <remote name="jianrzy" fetch="https://github.com/jianrzy" clone-depth="1" />
+        <remote name="zeta96" fetch="https://github.com/zeta96" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="rayrzy" revision="3" />
@@ -17,5 +18,9 @@
 
         <!-- keepQASSA -->
         <remove-project path="packages/apps/Dirac" name="packages_apps_Dirac" />
+
+        <!-- GCC toolchain -->
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-priv-toolchains" remote="zeta96" revision="elf/gcc-10.1.0/arm" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-priv-toolchains" remote="zeta96" revision="elf/gcc-10.1.0/arm64" />
 
 </manifest>
