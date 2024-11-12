@@ -3,24 +3,10 @@
 
         <!-- Remote -->
         <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
-        <remote name="jianrzy" fetch="https://github.com/jianrzy" clone-depth="1" />
-        <remote name="zeta96" fetch="https://github.com/zeta96" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="rayrzy" revision="3" />
-        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="s318" />
-        <project path="kernel/xiaomi/msm8937" name="L_keramel_s_toni" remote="rayrzy" revision="LA.UM.8.6.r1/skybase" />
-
-        <!-- LineageOS -->
-        <!-- CodeAurora additions -->
-        <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="jianrzy" revision="lineage-17.1" />
-
-        <!-- keepQASSA -->
-        <remove-project path="packages/apps/Dirac" name="packages_apps_Dirac" />
-
-        <!-- GCC toolchain -->
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-priv-toolchains" remote="zeta96" revision="elf/gcc-10.1.0/arm" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-priv-toolchains" remote="zeta96" revision="elf/gcc-10.1.0/arm64" />
+        <project path="device/xiaomi/santoni" name="santoni" remote="rayrzy" revision="3" />
+        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="3" />
+        <project path="kernel/xiaomi/santoni" name="android_kernel_xiaomi_santoni" remote="rayrzy" revision="ten" />
 
 </manifest>
