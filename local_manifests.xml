@@ -5,8 +5,8 @@
         <remote name="rayrzy" fetch="https://github.com/rayrzy" clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="santoni" remote="rayrzy" revision="main" />
-        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="s318" />
+        <project path="device/xiaomi/santoni" name="santoni" remote="rayrzy" revision="3" />
+        <project path="vendor/xiaomi/santoni" name="vendor_xiaomi_santoni" remote="rayrzy" revision="3" />
         <project path="kernel/xiaomi/santoni" name="android_kernel_xiaomi_santoni" remote="rayrzy" revision="ten" />
 
 </manifest>
